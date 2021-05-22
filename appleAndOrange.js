@@ -12,14 +12,14 @@ function appOrg(s,t,a,b,apple,orange){
     var m=apple.length;
     var n=orange.length; 
     for(let i=0;i<n;i++){
-        // apple[i]= a+apple[i];
+        
         
         if((a+apple[i])>=s && (a+apple[i])<=t){
                j=j+1;
         }
     }
         for(let i=0;i<m;i++){
-        // orange[i]=b+orange[i];
+        
         if((b+orange[i])>=s && (b+orange[i])<=t){
             k=k+1;
         }
